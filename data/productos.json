@@ -1,0 +1,16 @@
+[
+    {
+        "id": 101,
+        "nombre": "Laptop Gamer",
+        "desc": "Laptop potente con tarjeta gráfica dedicada",
+        "precio": 1500,
+        "imagen": "laptop_gamer.jpg"
+    },
+    {
+        "id": 102,
+        "nombre": "Mouse Inalámbrico",
+        "desc": "Mouse ergonómico con conexión Bluetooth",
+        "precio": 50,
+        "imagen": "mouse_inalambrico.jpg"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1001,
+        "id_usuario": 1,
+        "fecha": "2025-03-28",
+        "total": 1550,
+        "dirección": "Calle Falsa 123, Ciudad",
+        "productos": [
+            {
+                "id": 101,
+                "cantidad": 1
+            },
+            {
+                "id": 102,
+                "cantidad": 1
+            }
+        ]
+    },
+    {
+        "id": 1002,
+        "id_usuario": 2,
+        "fecha": "2025-03-28",
+        "total": 1500,
+        "dirección": "Avenida Siempreviva 742, Ciudad",
+        "productos": [
+            {
+                "id": 101,
+                "cantidad": 1
+            }
+        ]
+    }
+]

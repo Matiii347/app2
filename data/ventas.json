@@ -1,32 +1,349 @@
 [
-    {
-        "id": 1001,
-        "id_usuario": 1,
-        "fecha": "2025-03-28",
-        "total": 1550,
-        "dirección": "Calle Falsa 123, Ciudad",
-        "productos": [
-            {
-                "id": 101,
-                "cantidad": 1
-            },
-            {
-                "id": 102,
-                "cantidad": 1
-            }
-        ]
-    },
-    {
-        "id": 1002,
-        "id_usuario": 2,
-        "fecha": "2025-03-28",
-        "total": 1500,
-        "dirección": "Avenida Siempreviva 742, Ciudad",
-        "productos": [
-            {
-                "id": 101,
-                "cantidad": 1
-            }
-        ]
-    }
+  {
+    "id": 1001,
+    "id_usuario": 1,
+    "fecha": "2025-03-28",
+    "total": 1550,
+    "dirección": "Calle Falsa 123, Ciudad",
+    "productos": [
+      {
+        "id": 1,
+        "cantidad": 1
+      },
+      {
+        "id": 2,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1002,
+    "id_usuario": 2,
+    "fecha": "2025-03-28",
+    "total": 1500,
+    "dirección": "Avenida Siempreviva 742, Ciudad",
+    "productos": [
+      {
+        "id": 1,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1003,
+    "id_usuario": 3,
+    "fecha": "2025-03-29",
+    "total": 360,
+    "dirección": "Calle 9 de Julio 500, Rosario",
+    "productos": [
+      {
+        "id": 5,
+        "cantidad": 1
+      },
+      {
+        "id": 2,
+        "cantidad": 2
+      }
+    ]
+  },
+  {
+    "id": 1004,
+    "id_usuario": 4,
+    "fecha": "2025-03-29",
+    "total": 6000,
+    "dirección": "Av. Libertador 4500, Buenos Aires",
+    "productos": [
+      {
+        "id": 4,
+        "cantidad": 1
+      },
+      {
+        "id": 5,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1005,
+    "id_usuario": 5,
+    "fecha": "2025-03-30",
+    "total": 580,
+    "dirección": "Calle Mitre 123, Córdoba",
+    "productos": [
+      {
+        "id": 2,
+        "cantidad": 1
+      },
+      {
+        "id": 3,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1006,
+    "id_usuario": 6,
+    "fecha": "2025-03-30",
+    "total": 9000,
+    "dirección": "Av. Colón 321, Mendoza",
+    "productos": [
+      {
+        "id": 10,
+        "cantidad": 2
+      }
+    ]
+  },
+  {
+    "id": 1007,
+    "id_usuario": 7,
+    "fecha": "2025-03-30",
+    "total": 2000,
+    "dirección": "Calle San Martín 87, Salta",
+    "productos": [
+      {
+        "id": 9,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1008,
+    "id_usuario": 8,
+    "fecha": "2025-03-31",
+    "total": 3550,
+    "dirección": "Av. Rivadavia 1200, La Plata",
+    "productos": [
+      {
+        "id": 5,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1009,
+    "id_usuario": 9,
+    "fecha": "2025-03-31",
+    "total": 1600,
+    "dirección": "Calle Belgrano 78, Mar del Plata",
+    "productos": [
+      {
+        "id": 1,
+        "cantidad": 1
+      },
+      {
+        "id": 3,
+        "cantidad": 2
+      }
+    ]
+  },
+  {
+    "id": 1010,
+    "id_usuario": 10,
+    "fecha": "2025-03-31",
+    "total": 4500,
+    "dirección": "Av. Las Heras 345, San Juan",
+    "productos": [
+      {
+        "id": 10,
+        "cantidad": 1
+      },
+      {
+        "id": 12,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1011,
+    "id_usuario": 11,
+    "fecha": "2025-04-01",
+    "total": 550,
+    "dirección": "Calle Sarmiento 234, Resistencia",
+    "productos": [
+      {
+        "id": 3,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1012,
+    "id_usuario": 12,
+    "fecha": "2025-04-01",
+    "total": 1500,
+    "dirección": "Calle Lavalle 789, Tucumán",
+    "productos": [
+      {
+        "id": 1,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1013,
+    "id_usuario": 13,
+    "fecha": "2025-04-01",
+    "total": 3050,
+    "dirección": "Av. Santa Fe 222, Buenos Aires",
+    "productos": [
+      {
+        "id": 8,
+        "cantidad": 1
+      },
+      {
+        "id": 2,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1014,
+    "id_usuario": 14,
+    "fecha": "2025-04-02",
+    "total": 3200,
+    "dirección": "Av. Pellegrini 800, Rosario",
+    "productos": [
+      {
+        "id": 4,
+        "cantidad": 2
+      }
+    ]
+  },
+  {
+    "id": 1015,
+    "id_usuario": 15,
+    "fecha": "2025-04-02",
+    "total": 1600,
+    "dirección": "Calle Entre Ríos 123, Paraná",
+    "productos": [
+      {
+        "id": 6,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1016,
+    "id_usuario": 16,
+    "fecha": "2025-04-02",
+    "total": 1550,
+    "dirección": "Av. Alem 456, San Luis",
+    "productos": [
+      {
+        "id": 1,
+        "cantidad": 1
+      },
+      {
+        "id": 2,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1017,
+    "id_usuario": 17,
+    "fecha": "2025-04-03",
+    "total": 4200,
+    "dirección": "Calle Mendoza 789, Neuquén",
+    "productos": [
+      {
+        "id": 11,
+        "cantidad": 2
+      }
+    ]
+  },
+  {
+    "id": 1018,
+    "id_usuario": 1,
+    "fecha": "2025-04-03",
+    "total": 8000,
+    "dirección": "Calle Tucumán 101, Buenos Aires",
+    "productos": [
+      {
+        "id": 7,
+        "cantidad": 1
+      },
+      {
+        "id": 12,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1019,
+    "id_usuario": 2,
+    "fecha": "2025-04-03",
+    "total": 1300,
+    "dirección": "Av. Córdoba 222, Rosario",
+    "productos": [
+      {
+        "id": 2,
+        "cantidad": 2
+      },
+      {
+        "id": 3,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1020,
+    "id_usuario": 3,
+    "fecha": "2025-04-04",
+    "total": 3550,
+    "dirección": "Calle Corrientes 999, Mendoza",
+    "productos": [
+      {
+        "id": 5,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1021,
+    "id_usuario": 4,
+    "fecha": "2025-04-04",
+    "total": 900,
+    "dirección": "Calle Rioja 654, Formosa",
+    "productos": [
+      {
+        "id": 2,
+        "cantidad": 1
+      },
+      {
+        "id": 2,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1022,
+    "id_usuario": 5,
+    "fecha": "2025-04-04",
+    "total": 1500,
+    "dirección": "Calle Jujuy 147, Catamarca",
+    "productos": [
+      {
+        "id": 1,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 1023,
+    "fecha": "2025-05-17T14:30:00.000Z",
+    "id_usuario": 4,
+    "total": 340,
+    "dirección": "Calle Buenos Aires 123",
+    "productos": [
+      {
+        "id": 101,
+        "cantidad": 1
+      },
+      {
+        "id": 102,
+        "cantidad": 2
+      }
+    ]
+  }
 ]

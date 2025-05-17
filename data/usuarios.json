@@ -12,5 +12,112 @@
         "apellido": "Gómez",
         "email": "maria.gomez@example.com",
         "contraseña": "hashed_password_2"
+    },
+    {
+        "id": 3,
+        "nombre": "Carlos",
+        "apellido": "Ramírez",
+        "email": "carlos.ramirez@example.com",
+        "contraseña": "hashed_password_3"
+    },
+    {
+        "id": 4,
+        "nombre": "Lucía",
+        "apellido": "Fernández",
+        "email": "lucia.fernandez@example.com",
+        "contraseña": "hashed_password_4"
+    },
+    {
+        "id": 5,
+        "nombre": "Andrés",
+        "apellido": "López",
+        "email": "andres.lopez@example.com",
+        "contraseña": "hashed_password_5"
+    },
+    {
+        "id": 6,
+        "nombre": "Sofía",
+        "apellido": "Martínez",
+        "email": "sofia.martinez@example.com",
+        "contraseña": "hashed_password_6"
+    },
+    {
+        "id": 7,
+        "nombre": "Diego",
+        "apellido": "Torres",
+        "email": "diego.torres@example.com",
+        "contraseña": "hashed_password_7"
+    },
+    {
+        "id": 8,
+        "nombre": "Valentina",
+        "apellido": "Rojas",
+        "email": "valentina.rojas@example.com",
+        "contraseña": "hashed_password_8"
+    },
+    {
+        "id": 9,
+        "nombre": "Martín",
+        "apellido": "Díaz",
+        "email": "martin.diaz@example.com",
+        "contraseña": "hashed_password_9"
+    },
+    {
+        "id": 10,
+        "nombre": "Camila",
+        "apellido": "Silva",
+        "email": "camila.silva@example.com",
+        "contraseña": "hashed_password_10"
+    },
+    {
+        "id": 11,
+        "nombre": "Pablo",
+        "apellido": "Mendoza",
+        "email": "pablo.mendoza@example.com",
+        "contraseña": "hashed_password_11"
+    },
+    {
+        "id": 12,
+        "nombre": "Florencia",
+        "apellido": "Castro",
+        "email": "florencia.castro@example.com",
+        "contraseña": "hashed_password_12"
+    },
+    {
+        "id": 13,
+        "nombre": "Leandro",
+        "apellido": "Morales",
+        "email": "leandro.morales@example.com",
+        "contraseña": "hashed_password_13"
+    },
+    {
+        "id": 14,
+        "nombre": "Julieta",
+        "apellido": "Vega",
+        "email": "julieta.vega@example.com",
+        "contraseña": "hashed_password_14"
+    },
+    {
+        "id": 15,
+        "nombre": "Nicolás",
+        "apellido": "Suárez",
+        "email": "nicolas.suarez@example.com",
+        "contraseña": "hashed_password_15"
+    },
+    {
+        "id": 16,
+        "nombre": "Agustina",
+        "apellido": "Herrera",
+        "email": "agustina.herrera@example.com",
+        "contraseña": "hashed_password_16"
+    },
+    {
+        "id": 17,
+        "nombre": "Matías",
+        "apellido": "Cabrera",
+        "email": "matias.cabrera@example.com",
+        "contraseña": "hashed_password_17"
     }
 ]
+
+    

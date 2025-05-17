@@ -1,51 +1,60 @@
-const express = require('express');
-const router = express.Router();
-const fs = require('fs');
-const filePath = './data/ventas.json';
+// routes/ventas.js
+import { Router } from 'express';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const loadSales = () => JSON.parse(fs.readFileSync(filePath));
+const router    = Router();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname  = path.dirname(__filename);
+const filePath   = path.join(__dirname, '../data/ventas.json');
 
-// GET: Obtener todas las ventas
+const loadSales = () =>
+  JSON.parse(fs.readFileSync(filePath, 'utf8')); // devuelve un array
+
+// GET: todas las ventas
 router.get('/', (req, res) => {
-  const data = loadSales();
-  res.json(data.ventas);
+  const ventas = loadSales();
+  res.json(ventas);
 });
 
-// GET: Obtener una venta por ID
+// GET: venta por ID
 router.get('/:id', (req, res) => {
-  const data = loadSales();
-  const sale = data.ventas.find(v => v.id == req.params.id);
-  sale ? res.json(sale) : res.status(404).send('Venta no encontrada');
+  const ventas = loadSales();
+  const venta = ventas.find(v => v.id == req.params.id);
+  venta
+    ? res.json(venta)
+    : res.status(404).send('Venta no encontrada');
 });
 
-// POST: Crear una nueva venta
+// POST: crear venta
 router.post('/', (req, res) => {
-  const data = loadSales();
-  const nuevaVenta = { id: Date.now(), fecha: new Date().toISOString(), ...req.body };
-  data.ventas.push(nuevaVenta);
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-  res.status(201).json(nuevaVenta);
+  const ventas = loadSales();         // ventas = [ … ]
+  const ultimoId = ventas.length
+    ? Math.max(...ventas.map(v => v.id))
+    : 0;
+  const nueva = { id: ultimoId+1, fecha: new Date().toISOString(), ...req.body };
+  ventas.push(nueva);
+  fs.writeFileSync(filePath, JSON.stringify(ventas, null, 2));
+  res.status(201).json(nueva);
 });
 
-// POST: Consultar ventas por usuario (parámetro sensible en body)
+// POST: ventas por usuario
 router.post('/por-usuario', (req, res) => {
+  const ventas = loadSales();                           // ya es array
   const { id_usuario } = req.body;
-  const data = loadSales();
-  const ventasUsuario = data.ventas.filter(v => v.id_usuario == id_usuario);
+  const ventasUsuario = ventas.filter(v => v.id_usuario == id_usuario);
   res.json(ventasUsuario);
 });
 
-// PUT: Actualizar una venta existente
+// PUT: actualizar venta
 router.put('/:id', (req, res) => {
-  const data = loadSales();
-  const index = data.ventas.findIndex(v => v.id == req.params.id);
-  if (index !== -1) {
-    data.ventas[index] = { ...data.ventas[index], ...req.body };
-    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-    res.json(data.ventas[index]);
-  } else {
-    res.status(404).send('Venta no encontrada');
-  }
+  const ventas = loadSales();         // ventas = [ … ]
+  const idx = ventas.findIndex(v => v.id == req.params.id);
+  if (idx === -1) return res.status(404).send('Venta no encontrada');
+  ventas[idx] = { ...ventas[idx], ...req.body };
+  fs.writeFileSync(filePath, JSON.stringify(ventas, null, 2));
+  res.json(ventas[idx]);
 });
 
-module.exports = router;
+export default router;

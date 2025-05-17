@@ -1,16 +1,212 @@
 [
-    {
-        "id": 101,
-        "nombre": "Laptop Gamer",
-        "desc": "Laptop potente con tarjeta gráfica dedicada",
-        "precio": 1500,
-        "imagen": "laptop_gamer.jpg"
-    },
-    {
-        "id": 102,
-        "nombre": "Mouse Inalámbrico",
-        "desc": "Mouse ergonómico con conexión Bluetooth",
-        "precio": 50,
-        "imagen": "mouse_inalambrico.jpg"
-    }
+  {
+    "id": 1,
+    "nombre": "Laptop Gamer",
+    "desc": "Laptop potente con tarjeta gráfica dedicada",
+    "precio": 1500,
+    "imagen": "laptop_gamer.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Mouse Inalámbrico",
+    "desc": "Mouse ergonómico con conexión Bluetooth",
+    "precio": 50,
+    "imagen": "mouse_inalambrico.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Mouse Gamer",
+    "desc": "Mouse ergonómico con conexión Bluetooth",
+    "precio": 550,
+    "imagen": "mouse_Gamer.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Notebook Hp",
+    "desc": "Notebook de la Marca Hp",
+    "precio": 2550,
+    "imagen": "note_hp.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Notebook Lenovo",
+    "desc": "Notebook de la Marca Lenovo",
+    "precio": 3550,
+    "imagen": "note1_Len.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Parlante Bluetooth JBL",
+    "desc": "Parlante portátil con sonido envolvente",
+    "precio": 120,
+    "imagen": "parlante_jbl.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Auriculares Gamer HyperX",
+    "desc": "Auriculares con micrófono y sonido envolvente 7.1",
+    "precio": 130,
+    "imagen": "auris_hyperx.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "PlayStation 4",
+    "desc": "Actualizado: retroiluminación RGB",
+    "precio": 95,
+    "imagen": "ps4.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "PlayStation 5",
+    "desc": "Consola PS5 edición estándar con lector",
+    "precio": 800,
+    "imagen": "ps5.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Smartwatch Xiaomi",
+    "desc": "Reloj inteligente con pantalla AMOLED",
+    "precio": 100,
+    "imagen": "smartwatch_xiaomi.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Tablet Samsung Galaxy Tab A",
+    "desc": "Tablet con pantalla de 10.1 pulgadas",
+    "precio": 200,
+    "imagen": "tablet_samsung.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Teclado Mecánico RGB",
+    "desc": "Teclado gamer con retroiluminación RGB",
+    "precio": 90,
+    "imagen": "teclado_rgb.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Monitor Curvo Samsung 27\"",
+    "desc": "Monitor full HD ideal para juegos y oficina",
+    "precio": 300,
+    "imagen": "monitor_samsung.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Cámara Web Full HD",
+    "desc": "Cámara ideal para videollamadas en 1080p",
+    "precio": 60,
+    "imagen": "cam_web.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Silla Gamer Reclinable",
+    "desc": "Silla ergonómica con soporte lumbar",
+    "precio": 250,
+    "imagen": "silla_gamer.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Disco Duro Externo 2TB",
+    "desc": "Disco portátil para backups y almacenamiento",
+    "precio": 110,
+    "imagen": "hdd_2tb.jpg"
+  },
+  {
+    "id": 17,
+    "nombre": "Notebook Dell Inspiron",
+    "desc": "Notebook de alto rendimiento para oficina",
+    "precio": 2300,
+    "imagen": "note_dell.jpg"
+  },
+  {
+    "id": 18,
+    "nombre": "Auriculares Bluetooth Sony",
+    "desc": "Auriculares inalámbricos con cancelación de ruido",
+    "precio": 180,
+    "imagen": "auris_sony.jpg"
+  },
+  {
+    "id": 19,
+    "nombre": "Micrófono USB Profesional",
+    "desc": "Micrófono ideal para streaming y podcast",
+    "precio": 140,
+    "imagen": "mic_usb.jpg"
+  },
+  {
+    "id": 20,
+    "nombre": "Nintendo Switch",
+    "desc": "Consola híbrida para jugar en casa o portátil",
+    "precio": 500,
+    "imagen": "nintendo_switch.jpg"
+  },
+  {
+    "id": 21,
+    "nombre": "Notebook Asus VivoBook",
+    "desc": "Notebook liviana con excelente batería",
+    "precio": 2100,
+    "imagen": "note_asus.jpg"
+  },
+  {
+    "id": 22,
+    "nombre": "Mouse Pad RGB",
+    "desc": "Alfombrilla gamer con luces personalizables",
+    "precio": 40,
+    "imagen": "mousepad_rgb.jpg"
+  },
+  {
+    "id": 23,
+    "nombre": "Router WiFi 6",
+    "desc": "Router de última generación para alta velocidad",
+    "precio": 180,
+    "imagen": "router_wifi6.jpg"
+  },
+  {
+    "id": 24,
+    "nombre": "Control PS5 DualSense",
+    "desc": "Control inalámbrico para PlayStation 5",
+    "precio": 90,
+    "imagen": "control_ps5.jpg"
+  },
+  {
+    "id": 25,
+    "nombre": "Impresora Multifunción Epson",
+    "desc": "Impresora con escáner y WiFi",
+    "precio": 220,
+    "imagen": "impresora_epson.jpg"
+  },
+  {
+    "id": 26,
+    "nombre": "Smart TV 50\" 4K",
+    "desc": "Televisor inteligente con resolución Ultra HD",
+    "precio": 600,
+    "imagen": "smarttv_50.jpg"
+  },
+  {
+    "id": 27,
+    "nombre": "Disco SSD 1TB",
+    "desc": "Disco de estado sólido para alto rendimiento",
+    "precio": 130,
+    "imagen": "ssd_1tb.jpg"
+  },
+  {
+    "id": 28,
+    "nombre": "Base de Refrigeración para Laptop",
+    "desc": "Base con ventiladores para laptops gamer",
+    "precio": 45,
+    "imagen": "base_refrigeracion.jpg"
+  },
+  {
+    "id": 29,
+    "nombre": "Kit Teclado + Mouse Inalámbrico",
+    "desc": "Combo perfecto para home office",
+    "precio": 70,
+    "imagen": "kit_teclado_mouse.jpg"
+  },
+  {
+    "id": 30,
+    "nombre": "Proyector LED HD",
+    "desc": "Proyector portátil para presentaciones o cine en casa",
+    "precio": 250,
+    "imagen": "proyector_hd.jpg"
+  }
 ]
